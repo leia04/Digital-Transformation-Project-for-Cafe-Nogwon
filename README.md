@@ -1,6 +1,5 @@
 # Digital Transformation Project for Cafe Nogwon – Data Collection Automation (Crawling)
 
----
 
 ## Abstract
 This project addresses the lack of accessible sales data and reliance on experience-based decision-making despite years of operation.  
@@ -16,17 +15,18 @@ This repository focuses specifically on the **data collection (crawling) compone
 - There was no unified, repeatable process for acquiring data.
 
 
+## Key Findings
+- Reliable data collection is a prerequisite for effective analysis.
+- Isolating platforms reduces the impact of UI changes.
+- Simple automation logic is more robust than complex pipelines.
+
+
 ## Approach
 - Implemented **platform-specific crawlers** using Selenium where APIs were unavailable.
 - Separated **crawling** and **preprocessing** to improve maintainability.
 - Externalized credentials and paths via environment variables.
 - Avoided unnecessary abstractions to keep the system transparent and debuggable.
 
-
-## Key Findings
-- Reliable data collection is a prerequisite for effective analysis.
-- Isolating platforms reduces the impact of UI changes.
-- Simple automation logic is more robust than complex pipelines.
 
 
 ## Project Structure
