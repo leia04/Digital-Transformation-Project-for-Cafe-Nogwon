@@ -1,8 +1,5 @@
 # Digital Transformation Project for Cafe Nogwon – Data Collection Automation (Crawling)
 
-▶️ Demo Video  
-![Image](https://github.com/user-attachments/assets/5a49f0f2-1300-4d6e-80cb-85499cb63a6d)
-
 ---
 
 ## Abstract
